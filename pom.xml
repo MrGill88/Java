@@ -6,6 +6,14 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>  
   <groupId>com.javatpoint.application1</groupId>  
   <artifactId>my-app</artifactId>  
-  <version>1</version>  
+  <version>1</version> 
+  
+  <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:C:/Users/Gill/.jenkins/workspace/Test Code/artifacts</url>
+       </repository>
+   </distributionManagement>
   
 </project>  
